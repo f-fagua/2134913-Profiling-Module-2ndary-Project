@@ -17,6 +17,8 @@
 /[Pp]rofiling-[Pp]roject[Aa]/[Bb]uilds/
 /[Pp]rofiling-[Pp]roject[Aa]/[Ll]ogs/
 /[Pp]rofiling-[Pp]roject[Aa]/[Uu]ser[Ss]ettings/
+/[Pp]rofiling-[Pp]roject[Aa]/[Pp]roject[Ss]ettings/
+/[Pp]rofiling-[Pp]roject[Aa]/[Ss]erverData/
 
 /[Pp]rofiling-[Pp]roject[Bb]/[Ll]ibrary/
 /[Pp]rofiling-[Pp]roject[Bb]/[Tt]emp/
@@ -25,6 +27,8 @@
 /[Pp]rofiling-[Pp]roject[Bb]/[Bb]uilds/
 /[Pp]rofiling-[Pp]roject[Bb]/[Ll]ogs/
 /[Pp]rofiling-[Pp]roject[Bb]/[Uu]ser[Ss]ettings/
+/[Pp]rofiling-[Pp]roject[Bb]/[Pp]roject[Ss]ettings/
+/[Pp]rofiling-[Pp]roject[Bb]/[Ss]erverData/
 
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data
