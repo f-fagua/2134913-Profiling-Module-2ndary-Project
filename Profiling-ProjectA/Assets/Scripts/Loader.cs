@@ -24,6 +24,16 @@ public class Loader : MonoBehaviour
             LoadSprite("green");
             
             InvokeRepeating("SwitchSprite", 3f, 3f);
+
+            Addressables.LoadContentCatalogAsync("http://localhost/ProjectB/catalog_2nd-ProjectCatalog.bin")
+                    .Completed +=
+                handle =>
+                {
+                    Addressables.AddResourceLocator(handle.Result);
+                    LoadSprite("Assets/Sprites/purple.png");
+                    LoadSprite("Assets/Sprites/red.png");
+                    LoadSprite("Assets/Sprites/yellow.png");
+                };
         };
     }
 
